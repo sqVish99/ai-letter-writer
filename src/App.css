@@ -13,7 +13,6 @@
   font-size: 2.5rem;
   text-align: center;
   color: #333;
-  margin-bottom: 0.5rem;
 }
 
 .wrapper > h2 {
@@ -113,13 +112,11 @@ button:active {
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-  margin-top: 1.5rem;
 }
 
 .generated-letter h2 {
   font-size: 1.5rem;
   color: #333;
-  margin-bottom: 1rem;
 }
 
 .generated-letter p {
