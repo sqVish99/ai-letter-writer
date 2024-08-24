@@ -36,6 +36,7 @@ function App() {
       <div className="input-container">
         <input
           type="text"
+          id="name-input"
           className="name-input"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -43,6 +44,7 @@ function App() {
         />
         <input
           type="text"
+          id="my-role-input"
           className="my-role-input"
           value={myrole}
           onChange={(e) => setMyrole(e.target.value)}
@@ -52,6 +54,7 @@ function App() {
       <div className="input-container">
         <input
           type="text"
+          id="writing-to-input"
           className="writing-to-input"
           value={writingTo}
           onChange={(e) => setWritingTo(e.target.value)}
@@ -59,6 +62,7 @@ function App() {
         />
         <input
           type="text"
+          id="designation-to-input"
           className="designation-to-input"
           value={recrole}
           onChange={(e) => setRecrole(e.target.value)}
@@ -66,6 +70,7 @@ function App() {
         />
       </div>
       <select
+        id="letter-type-select"
         className="letter-type-select"
         value={letterType}
         onChange={(e) => setLetterType(e.target.value)}
@@ -78,6 +83,7 @@ function App() {
         <option value="Business">Business</option>
       </select>
       <textarea
+        id="prompt-textarea"
         className="prompt-textarea"
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
