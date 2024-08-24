@@ -6,7 +6,7 @@
   margin: 0 auto;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .wrapper > h1 {
@@ -89,7 +89,7 @@
 button {
   padding: 1rem 1.5rem;
   font-size: 1rem;
-  background-color: #007bff;
+  background-color: #ae6a47;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -98,12 +98,12 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #e37e2c;
   transform: translateY(-0.125rem);
 }
 
 button:active {
-  background-color: #004494;
+  background-color: #e49023;
   transform: translateY(0);
 }
 
