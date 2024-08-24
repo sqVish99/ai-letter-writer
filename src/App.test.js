@@ -3,4 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
+  const linkElement = screen.getByText(/Letter Writer/i);
+  expect(linkElement).toBeInTheDocument();
 });
