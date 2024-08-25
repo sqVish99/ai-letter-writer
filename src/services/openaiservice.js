@@ -1,6 +1,5 @@
 import axios from 'axios';
-
-const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
+import { decrypt } from '../utils/utils';
 
 const openaiService = {
   async generateLetter(prompt) {
@@ -20,7 +19,7 @@ const openaiService = {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${OPENAI_API_KEY}`,
+            'Authorization': `Bearer ${decrypt("U2FsdGVkX18tSr155UjsPGHqIvgPpBaMPq0tXtLcbDUPF/DvA7X3ydo8AkuFwF6ANfUtjHuFeJdcYV17AD/bdrJ7kuuG328Py7uswvg0CFhkVD4HW1LVyPgRJOqLUskbto/M21nxFtETF6HqIy6uEIWQGUXR/PM5GVl2FX60PBCOONb1n3XgbvskUCbe7nH45XuWlQlrRbRUIXqlS4v85A==")}`,
           },
         }
       );
