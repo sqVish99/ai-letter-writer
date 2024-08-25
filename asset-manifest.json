@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ai-letter-writer/static/css/main.c7d8a23e.css",
-    "main.js": "/ai-letter-writer/static/js/main.a8e70115.js",
+    "main.js": "/ai-letter-writer/static/js/main.c55cb902.js",
     "static/js/453.fff69f04.chunk.js": "/ai-letter-writer/static/js/453.fff69f04.chunk.js",
     "index.html": "/ai-letter-writer/index.html",
     "main.c7d8a23e.css.map": "/ai-letter-writer/static/css/main.c7d8a23e.css.map",
-    "main.a8e70115.js.map": "/ai-letter-writer/static/js/main.a8e70115.js.map",
+    "main.c55cb902.js.map": "/ai-letter-writer/static/js/main.c55cb902.js.map",
     "453.fff69f04.chunk.js.map": "/ai-letter-writer/static/js/453.fff69f04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7d8a23e.css",
-    "static/js/main.a8e70115.js"
+    "static/js/main.c55cb902.js"
   ]
 }
